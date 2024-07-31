@@ -1,0 +1,21 @@
+"Assignment SQL File" 
+
+use employees;
+
+--Write a query to display the employees whose firstname starts with 'Y' and ends with 'n' from employees table.
+select 
+	first_name
+from employees.employees
+where first_name like 'Y%%n';
+
+--Write a query to display the emp_no and salary increased by 30% from salaries table.
+select 
+	emp_no, 
+	salary, 
+	(salary + salary*0.3) as revised_salary
+from salaries;
+
+--Write a query to display unique titles from titles table.
+select 
+	distinct(title) 
+from titles;
