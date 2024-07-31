@@ -1,4 +1,0 @@
-"This is a new file." 
-
-
-this file is created to use mkdir and echo to create folder and file via cmd
